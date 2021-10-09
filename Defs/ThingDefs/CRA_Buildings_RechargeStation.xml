@@ -1,0 +1,39 @@
+<Defs>
+	<!--New Robot: ER Bot -->
+	<ThingDef ParentName="CR_RechargeStation" Class="AIRobot.X2_ThingDef_AIRobot_Building_RechargeStation">
+		<defName>AIRobot_RechargeStation_ERBot</defName>
+		<label>ER Bot Base Station</label>
+		<description>This station comes equipped with a specialized robot.</description>
+		<graphicData>
+			<texPath>Things/Building/AIRobot_RechargeStation/AIRobotRechargeStation_ERBot</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+			<damageData>
+				<rect>(0.05,0.05,0.95,0.95)</rect>
+			</damageData>
+		</graphicData>
+
+		<secondaryGraphicPath>Things/Building/AIRobot_RechargeStation/AIRobotRechargeStation_Empty1</secondaryGraphicPath>
+		<spawnThingDef>AIRobot_ERBot</spawnThingDef>
+	</ThingDef>
+	
+	<!--New Robot: Analysis Bot -->
+	<ThingDef ParentName="CR_RechargeStation" Class="AIRobot.X2_ThingDef_AIRobot_Building_RechargeStation">
+		<defName>AIRobot_RechargeStation_AnalysisBot</defName>
+		<label>Analysis Bot Base Station</label>
+		<description>This station comes equipped with a specialized robot.</description>
+		<graphicData>
+			<texPath>Things/Building/AIRobot_RechargeStation/AIRobotRechargeStation_AnalysisBot</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+			<damageData>
+				<rect>(0.05,0.05,0.95,0.95)</rect>
+			</damageData>
+		</graphicData>
+
+		<secondaryGraphicPath>Things/Building/AIRobot_RechargeStation/AIRobotRechargeStation_Empty1</secondaryGraphicPath>
+		<spawnThingDef>AIRobot_AnalysisBot</spawnThingDef>
+	</ThingDef>
+</Defs>

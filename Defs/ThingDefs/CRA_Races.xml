@@ -1,0 +1,33 @@
+<Defs>
+	<!-- New Robot: Emergency Response Bot -->
+	<ThingDef ParentName="AIRobot_Bot" Class="AIRobot.X2_ThingDef_AIRobot">
+		<defName>AIRobot_ERBot</defName>
+		<label>ER Bot</label>
+		<description>A robot for emergency response, such as firefighting and doctoring.</description>
+		<robotWorkTypes>
+			<li>
+				<workTypeDef>Doctor</workTypeDef>
+				<priority>1</priority>
+			</li>
+			<li>
+				<workTypeDef>Firefighter</workTypeDef>
+				<priority>2</priority>
+			</li>
+		</robotWorkTypes>
+		<destroyedDef>AIRobot_ERBot_disabled</destroyedDef>
+	</ThingDef>
+	
+	<!-- New Robot: Analysis Bot -->
+	<ThingDef ParentName="AIRobot_Bot" Class="AIRobot.X2_ThingDef_AIRobot">
+		<defName>AIRobot_AnalysisBot</defName>
+		<label>Analysis Bot</label>
+		<description>A robot for researching, analysis and data-processing jobs.</description>
+		<robotWorkTypes>
+			<li>
+				<workTypeDef>Research</workTypeDef>
+				<priority>1</priority>
+			</li>
+		</robotWorkTypes>
+		<destroyedDef>AIRobot_AnalysisBot_disabled</destroyedDef>
+	</ThingDef>
+</Defs>

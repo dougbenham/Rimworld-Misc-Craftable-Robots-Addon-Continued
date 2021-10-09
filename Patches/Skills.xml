@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@Name="AIRobot_Bot"]/robotSkills</xpath>
+		<value>
+			<li><skillDef>Medicine</skillDef><level>20</level><passion>Minor</passion></li>
+			<li><skillDef>Intellectual</skillDef><level>20</level><passion>Minor</passion></li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@Name="AIRobot_Bot"]/statBases/WorkSpeedGlobal</xpath>
+		<value><WorkSpeedGlobal>2</WorkSpeedGlobal></value>
+	</Operation>
+</Patch>
+
+

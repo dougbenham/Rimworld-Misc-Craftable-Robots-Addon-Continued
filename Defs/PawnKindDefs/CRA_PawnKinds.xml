@@ -1,0 +1,42 @@
+<Defs>
+
+	<!--New Robot: ER Bot -->
+	<PawnKindDef ParentName="AIRobot_PawnKind">
+		<defName>AIRobot_ERBot</defName>
+		<label>ER Bot</label>
+		<race>AIRobot_ERBot</race>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/AIRobot/ERBot</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(1.7,1.7)</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.1, 0.2)</volume>
+						<offset>(0,0.5,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	<!--New Robot: Analysis Bot -->
+	<PawnKindDef ParentName="AIRobot_PawnKind">
+		<defName>AIRobot_AnalysisBot</defName>
+		<label>Analysis Bot</label>
+		<race>AIRobot_AnalysisBot</race>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/AIRobot/AnalysisBot</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(1.7,1.7)</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.1, 0.2)</volume>
+						<offset>(0,0.5,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>

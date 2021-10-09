@@ -1,0 +1,21 @@
+<Defs>
+	<!--New Robot: ER Bot -->
+	<ThingDef ParentName="AIRobot_Disabled_I">
+		<defName>AIRobot_ERBot_disabled</defName>
+		<label>ER Bot (disabled)</label>
+		<description>This is the sad end of a bot. It's no longer useful and needs heavy repairs or dismantling.</description>
+		<graphicData>
+			<texPath>Things/AIRobot/ERBot_north</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<!--New Robot: Analysis Bot -->
+	<ThingDef ParentName="AIRobot_Disabled_I">
+		<defName>AIRobot_AnalysisBot_disabled</defName>
+		<label>Analysis Bot (disabled)</label>
+		<description>This is the sad end of a bot. It's no longer useful and needs heavy repairs or dismantling.</description>
+		<graphicData>
+			<texPath>Things/AIRobot/AnalysisBot_north</texPath>
+		</graphicData>
+	</ThingDef> 
+</Defs>
